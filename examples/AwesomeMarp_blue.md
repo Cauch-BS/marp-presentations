@@ -927,7 +927,7 @@ footer: 初虹 # 设置页脚区域的内容，如果设定页眉的内容，则
 
 <div>
 
-## 创作不易，buy me a coffee 🤙~ 
+## Last Page
 
 <!-- _class: trans -->
 <!-- _footer: "" -->
