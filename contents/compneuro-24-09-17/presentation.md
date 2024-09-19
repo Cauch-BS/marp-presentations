@@ -35,8 +35,8 @@ Date: September 22nd, 2024
 - [Introduction](#3)
 - [From Von Neumann to Boltzman](#7) 
 - [What are Memristors?](#11)
-- [Mimicing AI](#20)
-- [Mimicing Brains](#38)
+- [Memristor Neural Networks](#17)
+- [Materials for Memristors](#38)
 - [From Circuits to Systems](#45)
 - [Take Home Message](#48)
 
@@ -70,7 +70,7 @@ Output: 102 ms ± 777 μs per loop (mean ± std. dev. of 7 runs, 10 loops each)
 
 ## 1. Introduction
 
-<!-- _class: navbar -->
+<!-- _class: navbar bq-blue-->
 <!-- _header: \ ***@ SNU CN*** **Introduction** *Memristors* *Architectures* *Conclusion*-->
 ```python
 # vectorized with GPU
@@ -85,6 +85,8 @@ vectorized_gpu() # compile the function
 %timeit vectorized_gpu()
 ```
 Output: 3.99 μs ± 116 ns per loop (mean ± std. dev. of 7 runs, 100,000 loops each)
+
+> Note: Of course, the time difference is also due to jax's caching behavior. 
 
 ## 1. Introduction
 
@@ -215,19 +217,49 @@ $$ i(t) = W(\phi(t)) v(t)$$
 > $\implies$ The conductance $G \approx G_{L}(1 + \epsilon \cos \gamma)$ was derived by Peotta & Ventra. 
 > The conductance is dependent on the cumulative integral of the voltage, making it a memductance. Not only does this demonstrate that a real memristor can be used in nano-circuitry, it also indicates that advancements in materials science could lead to the development of memristors.
 
-## 3. Mimicing AI
+## 4. Memristor Neural Networks (MNNs)
 
 <!-- _class: trans -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
 
-## 3. Mimicing AI
+## 4. Memristor Neural Networks (MNNs)
 
-<!-- _class: navbar -->
+<!-- _class: navbar cols-2-->
 <!-- _header: \ ***@ SNU CN*** *Introduction* **Memristors** *Architectures* *Conclusion*-->
+
+- Deep learning is $x_{n+1} = \phi(Wx_n + b)$, where $W$ is the weight matrix, $x_n$ is the input vector to the $n$-th layer, $b$ is the bias vector, and $\phi$ is the non-linear activation function.
+- $i = W(\phi) v$ can be leveraged to accelerate matrix computations. 
+- The voltage is taken as $x_n$, the weight matrix is taken as the analogue *memductance*, and the current is taken as the output vector $x_{n+1}$.
+- In this way, the memductance reflects long term potentiation (LTP) and long term depression (LTD) in the brain.
+
+<div class=rimg>
+
+![#c h: 400](assets/schematic.png)
+
+</div>
+
+## 4. Memristor Neural Networks (MNNs)
+
+<!-- _class: navbar-->
+<!-- _header: \ ***@ SNU CN*** *Introduction* **Memristors** *Architectures* *Conclusion*-->
+
+## 5. Materials for Memristors
+
+<!-- _class: trans -->
+<!-- _footer: "" -->
+<!-- _paginate: "" -->
+
+## 5. Materials for Memristors
+
+<!-- _class: navbar-->
+<!-- _header: \ ***@ SNU CN*** *Introduction* **Memristors** *Architectures* *Conclusion*-->
+
 
 ---
 
 ###### Q&A 
-<!-- _class: lastpage -->
+<!-- _class: lastpage-->
 <!-- _footer: "" -->
+<!-- _paginate: "" -->
+
