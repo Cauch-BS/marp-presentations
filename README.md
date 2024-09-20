@@ -1,124 +1,120 @@
-
 [✨ README-en](https://github.com/favourhong/Awesome-Marp/blob/main/README-en.md)、[🎉 README-zh](https://github.com/favourhong/Awesome-Marp/blob/main/README.md)
 
-# Awesome Marp：轻松取代 LaTeX Beamer！
+## Awesome Marp: Easily replace LaTeX Beamer!
 
-## 为什么要做 Awesome Marp？
+## Why `Awesome Marp`?
 
-自从了解到 Marp 可以使用 Markdown 语法来创作 PPT 之后，我有两年多没有使用 PowerPoint 做过演示文稿了。
+I haven't made a PowerPoint presentation in over two years, ever since I learned that `Marp` can use Markdown syntax to create PPTs.
 
-Marp 内置的原生主题样式数量少，并且呈现效果不好看，所以一直以来我也在尝试自定义 CSS 文件，来打造符合个人审美的 theme。我在边改造边用的过程中，这套模板也得到了几位朋友的喜爱。于是索性分享出来，希望能给到你一些帮助~ 
+The built-in native theme of `Marp` has few styles and the presentation effect is not good, so I've been trying to customize the CSS file to create a theme that meets my personal aesthetics, and this template has gained a lot of popularity among several friends while I've been working on it. So I simply shared it in the hopes that it would help you in some way~ 
 
-我给这套主题还起了个名字，`Awesome Marp`，算是一个阶段性总结吧。目前 v1.3版本提供了 6 种主题（分别是深色、绿色、蓝色、红色、紫色和棕色）和 38 种自定义样式。
+I gave this theme a name, `Awesome Marp`, it's kind of a stage summary. The current v1.3 version provides six themes (dark, green, blue, red, purple and brown) and 38 custom styles.
 
-首先，先来看一张效果动图吧~
+First, let's take a look at a rendering~
 
 ![Awesome Marp 整体效果](./images/AwesomeMarp整体效果.gif)
 
-怎么样？如果你也使用过 Marp 原生的 theme，一定会发现 Awesome-Marp 变化真的很大了。是的，我基于 Marp 的`default` 主题，做了不小的改动。
+What's up? If you've used `Marp`'s native theme, you'll notice that `Awesome Marp` has changed a lot. Yes, I based it on Marp's `default` theme, with a few changes.
 
-这是一个纯 CSS 的项目，所有的效果都是 CSS 语言实现的。因为并没有前端基础，所以我是一边学一边改，代码还有不少可以再完善优化的地方。但，完成比完善更重要嘛，一些小的问题可以日后迭代更新。于是，就决定将 Awesome Marp 上线了！
+This is a pure CSS project, all effects are implemented in CSS language. Since I don't have any front-end knowledge, I'm learning as I go, and there are still a lot of things I can do to improve and optimize the code. However, completion is more important than perfection, and some small problems can be iterated and updated later. So, I decided to put `Awesome Marp` online!
 
+## Software you need to know
 
-## 你需要了解的软件工具
+There are only three: the Markdown syntax, the Markdown editor ([Visual Studio Code](https://code.visualstudio.com)、 [Obsidian](https://obsidian.md/)) and the [Marp for VScode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) plugin!
 
-就三样：用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com) 或 [Obsidian](https://obsidian.md/)、[Marp for VScode（插件）](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)！
+- Markdown 
 
-- Markdown 是一种**极轻量**的文本标记语言，允许人们使用***\*易读易写\****的纯文本格式编写文档，而且对于表格、代码、图片、公式等支持良好，在网站搭建、课程笔记/讲义、演示文稿、撰写学术论文等方面应用极为广泛。
+- Markdown editors (e.g. VS Code, Obsidian)
 
-- Markdown 编辑器（如 VS Code、Obsidian）
+- Marp
 
-- Marp 是使用 Markdown 创作演示文稿的工具。
+## A few features of `Awesome Marp`
 
-## Awesome Marp 的几个特色
-
-- 支持 8 种**页面分栏**的样式：分别是两栏五五分、两栏六四分、两栏七三分、两栏四六分、两栏三七分、三栏三三分、两行分栏和品字型分栏
+- Supports 8 types of **page columns**: 2-column 5/5, 2-column 6/4, 2-column 7/3, 2-column 4/6, 2-column 3/7,  3-column 3/3，2-rows.
 
 ![4种页面分栏的呈现效果](./images/页面分栏.gif)
 
-- 支持 6 种**非嵌套列表的分栏**样式：两列+有序列表+方形序号、两列+有序列表+圆形序号、两列+无序列表+方形序号、两列+无序列表+圆形序号、单列+有序列表+方形序号、单列+有序列表+圆形序号
+- Support 6 **non-nested lists of column** styles:
 
 ![list列表分栏呈现的效果](./images/列表分栏.gif)
 
-- 支持导航进度栏：
+- Support navigation progress bar:
 
 ![导航进度栏的效果](./images/导航进度栏.gif)
 
-- 支持 5 种类型的封面页：
+- Support 5 types of cover pages:
 
 ![5种类型封面页的效果](./images/封面页.gif)
 
-- 支持 3 种类型的目录页：
+- Support 3 types of catalog pages:
 
 ![3种目录页的效果](./images/目录页.gif)
 
-- 支持 5 种自定义 Callouts（类似于 Beamer 的定理框）：
+- Support 5 kinds of custom "quote boxes": 
 
 ![5种自定义引用盒子的呈现效果](./images/引用盒子.gif)
 
 
 
-- 小彩蛋：链接会自动增加一个小尾巴：
+- Little easter: the link automatically adds a little tail:
 
 ![链接的呈现效果](./images/链接.gif)
 
-- 还可以自定义实现图片的水平排列方式：居中对齐、居左对齐或居右对齐 
-	- 图片水平居中对齐：`![#c](./images/a.png)`  
-	- 图片水平居右对齐：`![#r](./images/a.png)` 
-	- 图片水平居左对齐：`![#l](./images/a.png)` 
+- It is also possible to customize the horizontal alignment of images: center, left or right. 
+	- Horizontal center alignment of images: `! [#c](. /images/a.png)`  
+	- Pictures are horizontally right-aligned: `! [#r](. /images/a.png)` 
+	- Pictures are horizontally left-aligned: `! [#l](. /images/a.png)`
 - …… 
 
-总结一下，像上面的这样的自定义样式，目前 Awesome Marp 1.3 版本一共支持 38 个！使用时只需要在页面指定局部指令，比如： `<!-- _class: trans -->`）
+To summarize, there are currently 38 custom styles like the one above supported in `Awesome Marp` 1.3! To use them, you just need to specify a local directive on the page, e.g. `<! -- _class: trans -->`)
 
 ![38 种自定义样式](./images/38种自定义样式.png)  
 
-不光如此，我还设计了 6 种主题色，想要切换 theme，只需要可在 YAML 区定义 `theme: <theme_name>`：
+Not only that, but I've also designed 6 theme colors, and to switch between them, all you need to do is define `theme: <theme_name>` in the YAML section:
 
 ![6种主题颜色](./images/6种主题颜色.png)
 
 ![轻松切换主题](./images/切换主题.gif)
 
-## 如何使用 Awesome Marp？
+## How to use `Awesome Marp`?
 
-- 如何使用：
-  - **搭配 VS Code**：直接使用 VS Code 打开 `Awesome-Marp` 文件夹
-    - 如果你想「拿来即用」，直接根据我分享的 Markdown 源码文件，对照修改就好了~ 
-    - 如果你对部分效果不满意、期望简单微调的话，目前在 `Awesome-Marp/themes` 下有 6 个 CSS 文件，这些 CSS 文件决定了 Markdown 源码的最终渲染效果，可以试着改一改~ 
-    - 如果你能够自行定制个性化 CSS 文件，渲染前，别忘在 `Awesome-Marp/.vscode/settings.json` 里加上你的 CSS 文件路径~ 
-  - **搭配 Obsidian**：安装 [Marp Slides 插件](https://github.com/samuele-cozzi/obsidian-marp-slides)，并配置相应 CSS 路径
+- How to use:
+	- **With VS Code**: Open the `Awesome-Marp` folder directly with VS Code.
+		- If you want to "use it as it is", you can just follow the Markdown source files I've shared and modify them accordingly.
+    
+		- If you're not happy with some of the effects and want to fine-tune them, there are currently 6 CSS files under `Awesome-Marp/themes` that determine the final rendering of the Markdown source code, so you can try to change them!
+		- If you are able to customize your CSS files, don't forget to add the path to your CSS files in `Awesome-Marp/.vscode/settings.json` before rendering.
+	- **With Obsidian**: Install the [Marp Slides plugin](https://github.com/samuele-cozzi/obsidian-marp-slides) and configure the CSS path accordingly!
+	
+- Due to the concern of copyright infringement, you need to download the fonts and install them by yourself, the fonts used in Awesome Marp are:
+	- Text fonts: `Latin Modern Math', `方正宋刻本秀楷简体', if not installed, `Calibri' and `楷体' will be used by default.
+    - Headline fonts: `Optima LT Medium', `方正苏新诗柳楷简体', if not installed, `Arial' and `黑体' will be used by default.
+    - Footnote fonts: `Charm` and `叶根友毛笔行书修正版`, if not installed, `Calibri` and `楷体` will be used by default.
+    - Code fonts: `Fira Code` and `霞鹜文楷等宽`, if not installed, `Consolas` and `华文中宋` will be used by default.
 
-- 字体：因担心版权问题，需自行下载字体并安装，Awesome Marp 用到的字体有：
-  - 正文字体：`Latin Modern Math`、`方正宋刻本秀楷简体`，如果未安装，默认将使用 `Calibri` 和 `楷体`
-  - 标题字体：`Optima LT Medium`、`方正苏新诗柳楷简体`，如果未安装，默认将使用 `Arial` 和 `黑体`
-  - 脚注字体：`Charm` 和 `叶根友毛笔行书修正版`，如果未安装，默认将使用 `Calibri` 和 `楷体`
-  - 代码字体：`Fira Code` 和 `霞鹜文楷等宽`，如果未安装，默认将使用 `Consolas` 和 `华文中宋`
+## Update Record
 
-## 更新记录
-
-- `2024年1月13日` Awesome Marp v1.3 
-  - 38 种自定义样式 
-  - 增加两行分栏、品字型分栏等
+- `January 13, 2024` Awesome Marp v1.3 
+  - 38 customizable styles 
+  - Add two rows of columns, character columns, etc.
   - [Awesome Marp v1.3：几处小更新～](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486869&idx=1&sn=fcc377ff6a5930436e5078a09d53f0ab&chksm=c13ff99df648708b89bafba030b27909d0022279e26da723ca54a1666fe55f50a4230f050662&scene=178&cur_album_id=3132459596339757070#rd)
-- `2023年10月16日` Awesome Marp v1.2
-  - 30 种自定义样式
-  - 在 v1.1 基础上增加脚注（1个）、调节字体大小（4 个）共 5 个自定义样式
-  - 新增免安装字体
+- `October 16, 2023` Awesome Marp v1.2
+  - 30 Custom Styles
+  - Add footnote (1), adjust font size (4) and 5 custom styles based on v1.1.
+  - New free fonts
   - [Awesome Marp v1.2：增加脚注、调节字体大小等样式～](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486825&idx=1&sn=56d632ce164831438ec87c1b20ed4c4c&chksm=c13ff961f64870774f069ab816340783d8f54fd6b89363b8d9412c593efc640851ce9edd8833&scene=178&cur_album_id=3132459596339757070#rd) 
-- `2023年9月26日`  Awesome Marp v1.1
-  - 25 种自定义样式
-  - 在 v1.0 基础上增加固定标题行（2 个）、页面四六分栏、页面三七分栏（2 个）共 4 个自定义样式
+- `September 26, 2023` Awesome Marp v1.1
+  - 25 customizable styles
+  - Add 4 custom styles based on v1.0, including Fixed Header Row (2), Page 4-6 Columns, Page 3-7 Columns (2).
   - [Awesome Marp v1.1：标题行不随正文浮动，这下更像 Beamer 了！](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486800&idx=1&sn=527348e242576079e4bd6cd1823c823a&chksm=c13ff958f648704e40a202db6ad5fa215ef4c189d66403e161d6ace9828406a8747ac755684f&scene=178&cur_album_id=3132459596339757070#rd)
-- `2023年9月24日`  Awesome Marp v1.0
-  - 21 种自定义样式
+- `September 24, 2023` Awesome Marp v1.0
+  - 21 custom styles
   - [Awesome Marp v1.0：我开发了一整套 Marp 主题，Markdown 转换的 PPT 也可以很好看！](https://mp.weixin.qq.com/s?__biz=MzkwOTE3NDExOQ==&mid=2247486787&idx=1&sn=2652ddae81f50240844cb652780912e1&chksm=c13ff94bf648705da1ba986b91265e3ff018acaffcfa60d7807a81be22176005e7a2b4483627&scene=178&cur_album_id=3132459596339757070#rd)
-
 
 ---
 
-希望对你有帮助，欢迎交流 ~ 
+I hope it's helpful to you, welcome to exchange ~ 
 
-创作不易，buy me a coffee 🤙~ 
-
+It is not easy to create, buy me a coffee 🤙~
 
 <img alt="WeChatPay" src="https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png" width="200"/>
-

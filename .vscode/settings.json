@@ -8,5 +8,7 @@
     "./themes/am_brown.scss",
     "./themes/am_purple.scss",
     "./themes/am_template.scss",
-  ]
+  ],
+  "markdown.marp.mathTypesetting": "mathjax",
+  "markdown.marp.strictPathResolutionDuringExport": true
 }
