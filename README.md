@@ -1,5 +1,15 @@
 [✨ README-en](https://github.com/favourhong/Awesome-Marp/blob/main/README-en.md)、[🎉 README-zh](https://github.com/favourhong/Awesome-Marp/blob/main/README.md)
 
+## Word of Gratitude 
+
+This project was forked from the original repository [favourhong/Awesome-Marp](https://github.com/favourhong/Awesome-Marp). Please refer to the original repository. All "I"'s in the following text refers to the original author. Please consider supporting the author by buying him a coffee below. All rights reserved to the original author.
+
+> This project is a Marp theme project, which is a Markdown presentation tool. If you are not familiar with Marp, you can refer to the official website: [Marp](https://marp.app/) 
+
+## Caution on License
+
+This project uses fonts that are not freely licensed for commerical use. Please refer to the original repository for more information.
+
 ## Awesome Marp: Easily replace LaTeX Beamer!
 
 ## Why `Awesome Marp`?
